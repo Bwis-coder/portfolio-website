@@ -1,0 +1,147 @@
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%
+}
+
+.section-container {
+  display: flex;
+  overflow: hidden;
+  padding: 60px;
+  gap: 20px;
+  padding-top: 60px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.section-container img {
+  height: 500px;
+  border-radius: 10px;
+  flex: 1;
+  object-fit: cover;
+
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%
+}
+
+.title-container .title-name {
+  margin-bottom: 10px;
+  font-size: 40px;
+  letter-spacing: -3px;
+  font-weight: 700;
+}
+
+.title-container .title-narration {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.title-narration span {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.section-input {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.section-input .input-details {
+  padding: 10px;
+  border-radius: 14px;
+  max-width: 100%;
+}
+
+.input-details-message {
+  padding: 20px;
+  border-radius: 14px;
+  max-width: 100%;
+
+}
+
+.contact-info {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.section-input button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 12px;
+  margin-top:30px;
+}
+
+input::placeholder {
+  font-size: 15px;
+  color: rgb(80, 79, 79);
+  font-weight: bold;
+  font-family: arial;
+  text-align: left;
+}
+
+.section-input button:hover {
+  background-color: #333;
+  transition: 0.2s ease;
+}
+
+.social-container {
+  display: flex;
+  gap: 10px;
+  padding: 30px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.instagram-image {
+  width: 60px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.twitter-image {
+  width: 60px;
+  object-fit: cover;
+  height: 60px;
+  border-radius: 15px;
+}
+
+.twitter-image:hover,
+.instagram-image:hover {
+  transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  opacity: 0.9;
+}
+
+.section-container,
+.section-input {
+  box-sizing: border-box;
+}
+
+input{
+  font-family:arial;
+  font-size:16px;
+  margin-top:30px;
+}
