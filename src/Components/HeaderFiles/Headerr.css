@@ -40,3 +40,25 @@
 .nav-container a.active-link {
   color:rgb(158, 157, 157);
 }
+
+
+@media (max-width: 480px) {
+  .nav-container {
+    gap: 20px;
+  }
+
+  .nav-container a {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .nav-container {
+    gap: 10px;
+  }
+
+  .nav-container a {
+    font-size: 10px;
+  }
+}

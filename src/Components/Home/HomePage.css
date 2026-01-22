@@ -91,7 +91,7 @@
   cursor: pointer;
   width: 100%;
   border-radius: 12px;
-  margin-top:30px;
+  margin-top: 30px;
 }
 
 input::placeholder {
@@ -140,31 +140,35 @@ input::placeholder {
   box-sizing: border-box;
 }
 
-input{
-  font-family:arial;
-  font-size:16px;
-  margin-top:30px;
+input {
+  font-family: arial;
+  font-size: 16px;
+  margin-top: 30px;
 }
 
 
 
 @media screen and (max-width: 768px) {
   .section-container {
-    flex-direction: column; 
-    padding: 20px; 
+    flex-direction: column;
+    padding: 20px;
   }
 
   .section-container img {
-    height: auto; 
+    height: auto;
     max-width: 100%;
   }
 
   .title-container .title-name {
-    font-size: 30px; 
+    font-size: 30px;
+  }
+
+  .code-name {
+    font-size: 14px;
   }
 
   .title-container .title-narration {
-    font-size: 14px; 
+    font-size: 14px;
     line-height: 1.4;
   }
 }
