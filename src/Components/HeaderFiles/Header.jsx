@@ -13,7 +13,7 @@ export function Header() {
           }} to='/'>Home</NavLink>
           <NavLink className={({ isActive }) => {
             return isActive ? 'active-link' : ''
-          }} to='/project'>Project</NavLink>
+          }} to='/project'>Projects</NavLink>
           <NavLink className={({ isActive }) => {
             return isActive ? 'active-link' : ''
           }} to='/skills' >Stacks/Skills</NavLink>
