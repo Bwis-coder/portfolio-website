@@ -21,7 +21,7 @@ export function ProjectPage() {
           >
             <div className="post-card-container1">
               <img src={tattoo} className="todo-image" />
-              <span>Todo List</span>
+              <span>Tattoo-website</span>
             </div>
           </a>
 
