@@ -5,6 +5,7 @@ import ecommerce from "../../assets/ecommerce.jpg";
 import foodwebsite from "/foodwebsite.jpeg";
 import businesswebsite from "/bussiness-webiste.jpeg";
 import tattoo from "/tattoo-photo.jpeg";
+import medical from "/medical-site";
 export function ProjectPage() {
   return (
     <div className="project-container">
@@ -14,6 +15,17 @@ export function ProjectPage() {
         <h2 className="projects-title">My Projects</h2>
 
         <div className="projects-grid">
+          <a
+            href="https://medical-clinic-website-y527.onrender.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="post-card-container1">
+              <img src={medical} className="todo-image" />
+              <span>medical clinic</span>
+            </div>
+          </a>
+
           <a
             href="https://bwis-tattoo-website.onrender.com"
             target="_blank"
