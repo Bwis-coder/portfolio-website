@@ -5,7 +5,7 @@ import ecommerce from "../../assets/ecommerce.jpg";
 import foodwebsite from "/foodwebsite.jpeg";
 import businesswebsite from "/bussiness-webiste.jpeg";
 import tattoo from "/tattoo-photo.jpeg";
-import medical from "/medical-site";
+import medical from "/medical-site.jpeg";
 export function ProjectPage() {
   return (
     <div className="project-container">
