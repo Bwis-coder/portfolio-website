@@ -4,6 +4,7 @@ import "./Skills.css";
 import react from "../../assets/react.png";
 import javascript from "../../assets/javascript-logo.png";
 import htmls from "../../assets/html.png";
+import node from "/node.webp";
 import cssd from "../../assets/css.png";
 
 export function SkillsPage() {
@@ -57,6 +58,7 @@ export function SkillsPage() {
             <img src={javascript} alt="JavaScript" />
             <img src={htmls} alt="HTML" />
             <img src={cssd} alt="CSS" />
+            <img src={node} alt="CSS" />
           </div>
         </div>
       </div>
