@@ -97,16 +97,7 @@ export function ProjectPage() {
           </a>
         </div>
 
-        <div className="github-link-container">
-          <a
-            href="https://github.com/Bwis-coder?tab=repositories"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="github-button"
-          >
-            See all my GitHub projects
-          </a>
-        </div>
+   
       </section>
     </div>
   );
