@@ -6,6 +6,8 @@ import foodwebsite from "/foodwebsite.jpeg";
 import businesswebsite from "/bussiness-webiste.jpeg";
 import tattoo from "/tattoo-photo.jpeg";
 import medbook from "/medbook.jpeg";
+import therapy from "/therapy-image.jpeg"
+
 
 import medical from "/medical-site.jpeg";
 export function ProjectPage() {
@@ -17,6 +19,18 @@ export function ProjectPage() {
         <h2 className="projects-title">My Projects</h2>
 
         <div className="projects-grid">
+
+            <a
+            href="https://therapist-website.onrender.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="post-card-container1">
+              <img src={therapy} className="todo-image" />
+              <span>Mental Health Clinic & Therapy Website</span>
+            </div>
+          </a>
+
           <a
             href="https://medbook-iybi.onrender.com"
             target="_blank"
