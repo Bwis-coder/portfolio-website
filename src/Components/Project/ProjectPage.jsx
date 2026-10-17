@@ -6,8 +6,8 @@ import foodwebsite from "/foodwebsite.jpeg";
 import businesswebsite from "/bussiness-webiste.jpeg";
 import tattoo from "/tattoo-photo.jpeg";
 import medbook from "/medbook.jpeg";
-import therapy from "/therapy-image.jpeg"
-
+import therapy from "/therapy-image.jpeg";
+import gymWebsite from "/personal-training-website.jpeg";
 
 import medical from "/medical-site.jpeg";
 export function ProjectPage() {
@@ -19,8 +19,18 @@ export function ProjectPage() {
         <h2 className="projects-title">My Projects</h2>
 
         <div className="projects-grid">
+          <a
+            href="https://personal-trainer-website.onrender.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="post-card-container1">
+              <img src={gymWebsite} className="todo-image" />
+              <span>BWIS Fitness – Personal Trainer Website</span>
+            </div>
+          </a>
 
-            <a
+          <a
             href="https://therapist-website.onrender.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -110,8 +120,6 @@ export function ProjectPage() {
             </div>
           </a>
         </div>
-
-   
       </section>
     </div>
   );
