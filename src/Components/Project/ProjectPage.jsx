@@ -8,8 +8,9 @@ import tattoo from "/tattoo-photo.jpeg";
 import medbook from "/medbook.jpeg";
 import therapy from "/therapy-image.jpeg";
 import gymWebsite from "/personal-training-website.jpeg";
-
 import medical from "/medical-site.jpeg";
+import autoRepairs from "/auto-repairs.jpeg";
+
 export function ProjectPage() {
   return (
     <div className="project-container">
@@ -19,6 +20,17 @@ export function ProjectPage() {
         <h2 className="projects-title">My Projects</h2>
 
         <div className="projects-grid">
+          <a
+            href="https://auto-repair-websites.onrender.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="post-card-container1">
+              <img src={autoRepairs} className="todo-image" />
+              <span>Auto Repair Business Website.</span>
+            </div>
+          </a>
+
           <a
             href="https://personal-trainer-website.onrender.com"
             target="_blank"
